@@ -13,6 +13,7 @@
 		19699B892050CC42005B92B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19699B882050CC42005B92B8 /* Assets.xcassets */; };
 		19699B8C2050CC42005B92B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19699B8A2050CC42005B92B8 /* LaunchScreen.storyboard */; };
 		19699B8F2050CC42005B92B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 19699B8E2050CC42005B92B8 /* main.m */; };
+		19699BC720512D12005B92B8 /* GCDManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 19699BC620512D12005B92B8 /* GCDManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		19699B8B2050CC42005B92B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		19699B8D2050CC42005B92B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		19699B8E2050CC42005B92B8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		19699BC520512D12005B92B8 /* GCDManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDManager.h; sourceTree = "<group>"; };
+		19699BC620512D12005B92B8 /* GCDManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,7 @@
 				19699B802050CC42005B92B8 /* AppDelegate.m */,
 				19699B822050CC42005B92B8 /* ViewController.h */,
 				19699B832050CC42005B92B8 /* ViewController.m */,
+				19699BC420512CEF005B92B8 /* gcdDemo1 */,
 				19699B852050CC42005B92B8 /* Main.storyboard */,
 				19699B882050CC42005B92B8 /* Assets.xcassets */,
 				19699B8A2050CC42005B92B8 /* LaunchScreen.storyboard */,
@@ -69,6 +73,15 @@
 				19699B8E2050CC42005B92B8 /* main.m */,
 			);
 			path = threadDemo;
+			sourceTree = "<group>";
+		};
+		19699BC420512CEF005B92B8 /* gcdDemo1 */ = {
+			isa = PBXGroup;
+			children = (
+				19699BC520512D12005B92B8 /* GCDManager.h */,
+				19699BC620512D12005B92B8 /* GCDManager.m */,
+			);
+			path = gcdDemo1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19699BC720512D12005B92B8 /* GCDManager.m in Sources */,
 				19699B842050CC42005B92B8 /* ViewController.m in Sources */,
 				19699B8F2050CC42005B92B8 /* main.m in Sources */,
 				19699B812050CC42005B92B8 /* AppDelegate.m in Sources */,
